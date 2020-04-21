@@ -1,0 +1,32 @@
+body {
+    background-color: silver;
+}
+
+h1 {
+    color: purple;
+}
+
+.hello {
+    background-color: white;
+}
+
+#special {
+    border: 2px solid blue;
+}
+
+h2,
+h3 {
+    color: goldenrod;
+}
+
+#special2 span {
+    border: 2px solid red;
+}
+
+div li {
+    color: blue;
+}
+
+div li li {
+    color: purple;
+}

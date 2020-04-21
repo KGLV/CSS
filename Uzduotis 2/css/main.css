@@ -1,0 +1,124 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    margin: 0em;
+    padding: 0em;
+}
+
+header.container {
+    background-color: darkcyan;
+    padding: 0em;
+}
+
+header.container h1 {
+    margin: 0em;
+    padding: 1em 1em 1em 0.5em;
+    color: white;
+    text-transform: uppercase;
+}
+
+header.container h3 {
+    color: white;
+    width: 99%;
+    margin: 0em 0em 0em 0.5em;
+    border-bottom: 2px dashed white;
+    letter-spacing: 0.3em;
+}
+
+header.container nav ul {
+    list-style-type: none;
+    margin: 0em;
+    padding: 1.5em 0em 1.5em 0em;
+}
+
+header.container nav ul li {
+    display: inline;
+    margin: 0em 4em 0em 0.5em;
+}
+
+header.container nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+section.container.description {
+    background-color: whitesmoke;
+}
+
+section.container.description h3 {
+    color: darkcyan;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3em;
+    margin: 0em;
+    padding: 1em 0em 0em 0em;
+}
+
+section.container.description:nth-of-type(3) h3 {
+    color: darkcyan;
+    padding-top: 1.5em;
+    margin: 0em 1em;
+    text-align: left;
+}
+
+section.container.description ol {
+    margin: 0em;
+    padding-bottom: 1em;
+    list-style-type: lower-roman;
+}
+
+section.container.description ol li {
+    margin: 0em 0em 0.8em 1.3em;
+}
+
+section.container.description p {
+    margin: 0em;
+    padding-bottom: 1.5em;
+    text-align: center;
+}
+
+section.container img {
+    margin: 2em 1em 0em 1em;
+    border: 1px solid darkcyan;
+}
+
+section.container h3 {
+    color: darkcyan;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    margin: 0em 1em;
+}
+
+section.container ul {
+    margin: 0em 0em 2em 0em;
+    list-style-type: square;
+}
+
+section.container ul li {
+    margin-left: 1.3em;
+}
+
+footer.container {
+    background-color: darkcyan;
+    margin: 0em;
+    padding: 0em;
+}
+
+footer.container h5 {
+    margin: 0;
+    padding: 0em 0em 2em 0em;
+    text-align: center;
+}
+
+footer.container ul {
+    width: 4%;
+    margin: auto;
+    padding: 1.5em 0em 1.5em 0em;
+}
+
+footer.container ul li a {
+    color: white;
+    text-decoration: none;
+}
