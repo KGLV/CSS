@@ -1,0 +1,23 @@
+tr, td {
+    padding-right: 2.5em;
+}
+
+table, th, tr, td {
+    border: 1px solid #d2d2d2;
+    border-collapse: collapse;
+}
+
+thead, tfoot {
+    color: #ecab21;
+    text-transform: uppercase;
+    background-color: #dddddd;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ff7f50;
+}
+

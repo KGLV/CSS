@@ -1,0 +1,20 @@
+html {
+    background-color: #fef6eb;
+}
+
+p {
+    color: #c25b55;
+    font-weight: bold;
+}
+
+li {
+    color: #74828e;
+    border-bottom: 1px dotted #74828e;
+    list-style: none;
+    margin-right: 38em;
+}
+
+li::before {
+    content: "\260E";
+    padding-right: 5px;
+}
